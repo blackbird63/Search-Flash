@@ -1,0 +1,43 @@
+<% layout('layouts/boilerplate') %>
+<div class="container d-flex justify-content-center align-items-center mt-5">
+    <diV class="row">
+        <div class="col-md-8 offset-md-2 col-xl-10 offset-xl-1">
+            <div class="card mb-3 register">
+                <div class="card-body">
+                    <img src="/stylesheets/img/register.jpg" alt="" class="card-img-top">
+                    <h5 class="card-title text-center mt-3">Inscription</h5>
+                    <form action="/register" method="post" novalidate class="validated-form">
+                        <div class="mb-3">
+                            <label class="form-label" for="username">Nom d'utilisateur</label>
+                            <input class="form-control" type="text" id="username" name="username" required autofocus>
+                            <div class="valid-feedback">
+                                Perfecto !!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="email">Email</label>
+                            <input class="form-control" type="email" id="email" name="email" required>
+                            <div class="valid-feedback">
+                                Perfecto !!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="password">Mot de passe</label>
+                            <input class="form-control" type="password" id="password" name="password" required>
+                            <div class="valid-feedback">
+                                Perfecto !!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <button class="btn btn-primary">S'inscrire</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </diV>
+</div>
+
+
+
+        

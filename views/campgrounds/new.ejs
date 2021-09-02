@@ -1,0 +1,59 @@
+<% layout('layouts/boilerplate') %>
+    <div class="row">
+        <h1 class="text-center">Créer votre annonce</h1>
+        <div class="col-6 offset-3">
+            <form action="/campgrounds" method="post" novalidate class="validated-form" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label class="form-label" for="title">Titre</label>
+                    <input class="form-control" type="text" id="title" name="campground[title]" required>
+                    <div class="valid-feedback">
+                        Perfecto !!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="location">Localisation</label>
+                    <input class="form-control" type="text" id="location" name="campground[location]" placeholder="Ville, Département" required>
+                    <div class="valid-feedback">
+                        Perfecto !!
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="image">Télécharger des Image(s)</label>
+                    <div class="input-group">
+                        <input type="file" class="form-control" name="image" id="image" multiple>
+                        <label class="input-group-text" for="image">📥</label>
+                    </div>
+                </div>
+                <!-- <div class="mb-3">
+                    <label class="form-label" for="image">Find Image</label>
+                    <input class="form-control" type="text" id="image" name="campground[image]" required>
+                    <div class="valid-feedback">
+                        Perfecto !!
+                    </div>
+                </div> -->
+                <div class="mb-3">
+                    <label for="price" class="form-label">Prix</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="price-label">€</span>
+                        <input type="text" class="form-control" id="price" name="campground[price]" placeholder="0.00"
+                            aria-describedby="price-label" required>
+                        <div class="valid-feedback">
+                            Perfecto !!
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="description">Description</label>
+                    <textarea class="form-control" type="text" id="description" name="campground[description]"
+                        required></textarea>
+                    <div class="valid-feedback">
+                        Perfecto !!
+                    </div>
+                </div>
+                <div class="mb-3 d-flex justify-content-between">
+                    <a class="btn btn-dark" href=" /campgrounds">Retourner aux logements</a>
+                    <button class="btn btn-primary">Valider votre annonce</button>
+                </div>
+            </form>
+        </div>
+    </div>
