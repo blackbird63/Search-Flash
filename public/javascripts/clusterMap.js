@@ -5,6 +5,7 @@ const map = new mapboxgl.Map({
     center: [3, 46.9],
     zoom: 4.8
 });
+map.scrollZoom.disable();
 
 map.addControl(new mapboxgl.NavigationControl());
 

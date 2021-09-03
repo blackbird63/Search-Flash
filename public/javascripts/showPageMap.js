@@ -5,6 +5,7 @@ const map = new mapboxgl.Map({
     center: campground.geometry.coordinates, // starting position [lng, lat]
     zoom: 10 // starting zoom
 });
+map.scrollZoom.disable();
 
 map.addControl(new mapboxgl.NavigationControl());
 
