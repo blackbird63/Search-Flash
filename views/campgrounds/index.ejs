@@ -4,8 +4,8 @@
 
     <% for(let campground of campgrounds){ %>
         <div class="card mb-3 principal">
-            <div class="row">
-                <div class="col-4 image-principale">
+            <div class="row flex-column flex-md-row">
+                <div class="col image-principale-index">
                     <% if(campground.images.length) {%>
                         <% let i=Math.floor(Math.random() * campground.images.length) %>
                             <img class="img-fluid" src="<%= campground.images[i].url %>" alt="">

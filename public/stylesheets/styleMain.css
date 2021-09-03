@@ -57,6 +57,16 @@ form {
     max-height: 300px;
 }
 
+.image-principale-index {
+    border: 1px transparent;
+    border-radius: 20px;
+    height: 100%;
+}
+.image-principale-index img {
+    width: max-content;
+    border-radius: 20px;
+}
+
 #campgroundCarousel img{
     border: 1px transparent;
     border-radius: 20px 20px 0 0;
