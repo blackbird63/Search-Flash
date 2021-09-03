@@ -72,6 +72,7 @@ app.use(
 const sessionConfig = {
     store,
     name: 'session',
+    secret,
     resave: false,
     saveUninitialized: true,
     cookie: {
@@ -85,6 +86,7 @@ const sessionConfig = {
 
 app.use(session(sessionConfig));
 app.use(flash());
+app.use(helmet());
 
 const scriptSrcUrls = [
     "https://stackpath.bootstrapcdn.com/",
