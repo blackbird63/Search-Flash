@@ -62,7 +62,6 @@ app.use(
         crypto: {
             secret
           },
-          resave: false,
           touchAfter: 24 * 3600
         });
 
