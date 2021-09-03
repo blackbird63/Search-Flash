@@ -95,6 +95,9 @@ const scriptSrcUrls = [
     "https://kit.fontawesome.com/",
     "https://cdnjs.cloudflare.com/",
     "https://cdn.jsdelivr.net",
+    "https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js",
+    "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js",
+    "https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"
 ];
 const styleSrcUrls = [
     "https://kit-free.fontawesome.com/",
@@ -104,6 +107,7 @@ const styleSrcUrls = [
     "https://api.tiles.mapbox.com/",
     "https://fonts.googleapis.com/",
     "https://use.fontawesome.com/",
+    "https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css"
 ];
 const connectSrcUrls = [
     "https://api.mapbox.com/",
