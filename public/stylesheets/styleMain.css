@@ -37,7 +37,7 @@ form {
 
 #map{
 	border: 1px #363636 outset;
-	border-radius: 20px;
+	border-radius: 20px 20px 20px 20px;
 	box-shadow: 10px 10px 10px 10px black;
 
 }
@@ -45,7 +45,7 @@ form {
 .principal{
     padding: 0;
     border: 1px #363636 outset;
-	border-radius: 20px;
+	border-radius: 20px 20px 20px 20px;
 	box-shadow: 3px 3px 3px 3px black;
 }
 
