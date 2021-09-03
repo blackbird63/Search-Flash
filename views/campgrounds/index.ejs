@@ -5,7 +5,7 @@
     <% for(let campground of campgrounds){ %>
         <div class="card mb-3 principal">
             <div class="row">
-                <div class="col-md-4 image-principale">
+                <div class="col-4 image-principale">
                     <% if(campground.images.length) {%>
                         <% let i=Math.floor(Math.random() * campground.images.length) %>
                             <img class="img-fluid" src="<%= campground.images[i].url %>" alt="">
@@ -13,7 +13,7 @@
                                 <img class="img-fluid" src="https://res.cloudinary.com/dqkmzmrq1/image/upload/v1630246018/noimage_nsmwf0.jpg" alt="">
                                 <% } %>
                 </div>
-                <div class="col-md-8">
+                <div class="col-8">
                     <div class="card-body">
                         <h5 class="card-title">
                             <%= campground.title %>
