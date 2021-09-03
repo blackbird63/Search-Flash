@@ -3,7 +3,7 @@ const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v10',
     center: [3, 46.9],
-    zoom: 4.8
+    zoom: 4
 });
 map.scrollZoom.disable();
 

@@ -60,12 +60,14 @@ form {
 .image-principale-index {
     border: 1px transparent;
     border-radius: 20px;
-    height: 100%;
+    height: max-content;
 }
 .image-principale-index img {
     width: max-content;
     border-radius: 20px;
     height: max-content;
+    max-height: 350px;
+    box-shadow: 1px 5px 5px 1px black;
 }
 
 #campgroundCarousel img{
