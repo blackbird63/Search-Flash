@@ -12,7 +12,7 @@
                 <a class="nav-link" href="/campgrounds/new">Créer votre annonce</a>
             </div>
             <div class="navbar-nav">
-                <% if(currentUser === undefined) {%>
+                <% if(!currentUser) {%>
                 <a class="nav-link " href="/login">Se connecter</a>
                 <a class="nav-link" href="/register">S'inscrire</a>
                 <%} else {%>
